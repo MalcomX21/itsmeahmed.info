@@ -101,7 +101,7 @@
 
     <!-- ============ EXPERIENCE ============ -->
     <section class="section container" id="experience" aria-labelledby="experience-h">
-      <h2 id="experience-h" class="section-title"><span class="num">01.</span> Experience</h2>
+      <h2 id="experience-h" class="section-title">Experience</h2>
       <div class="legend">
         <span class="tag tag-sec">Cybersecurity</span>
         <span class="tag tag-it">IT Support / Network / SysAdmin</span>
@@ -152,7 +152,7 @@
 
     <!-- ============ EDUCATION ============ -->
     <section class="section container" id="education" aria-labelledby="education-h">
-      <h2 id="education-h" class="section-title"><span class="num">02.</span> Education</h2>
+      <h2 id="education-h" class="section-title">Education</h2>
       <div class="grid-2">
         <article class="card edu-card reveal">
           <img class="edu-logo edu-logo-real" src="assets/img/algoma-logo.png" alt="Algoma University logo" width="88" height="88" loading="lazy">
@@ -164,8 +164,7 @@
           </div>
         </article>
         <article class="card edu-card reveal">
-          <!-- TODO: university logo at assets/img/ned-logo.png -->
-          <img class="edu-logo" src="assets/img/university-placeholder.svg" alt="NED University of Engineering and Technology logo" width="88" height="88" loading="lazy">
+          <img class="edu-logo edu-logo-real" src="assets/img/ned-logo.png" alt="NED University of Engineering and Technology logo" width="88" height="88" loading="lazy">
           <div>
             <h3>NED University of Engineering and Technology</h3>
             <p class="degree">Bachelor of Engineering, Computer Systems</p>
@@ -177,7 +176,7 @@
 
     <!-- ============ SKILLS ============ -->
     <section class="section container" id="skills" aria-labelledby="skills-h">
-      <h2 id="skills-h" class="section-title"><span class="num">03.</span> Skills</h2>
+      <h2 id="skills-h" class="section-title">Skills</h2>
       <div class="grid-2">
         <article class="card skill-group reveal">
           <h3><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg> Cybersecurity</h3>
@@ -204,7 +203,7 @@
 
     <!-- ============ PROJECTS ============ -->
     <section class="section container" id="projects" aria-labelledby="projects-h">
-      <h2 id="projects-h" class="section-title"><span class="num">04.</span> Projects</h2>
+      <h2 id="projects-h" class="section-title">Projects</h2>
       <div class="grid-3">
         <article class="card project reveal">
           <h3>Controlled Ransomware Framework</h3>
@@ -243,7 +242,7 @@
 
     <!-- ============ AWARDS ============ -->
     <section class="section container" id="awards" aria-labelledby="awards-h">
-      <h2 id="awards-h" class="section-title"><span class="num">05.</span> Awards &amp; Recognition</h2>
+      <h2 id="awards-h" class="section-title">Awards &amp; Recognition</h2>
       <article class="card award featured reveal">
         <div class="award-badge" aria-hidden="true"><svg class="icon"><use href="#i-trophy"/></svg></div>
         <div class="award-body">
@@ -268,7 +267,7 @@
 
     <!-- ============ PUBLICATION ============ -->
     <section class="section container" id="publication" aria-labelledby="publication-h">
-      <h2 id="publication-h" class="section-title"><span class="num">06.</span> Co-Authored Publication</h2>
+      <h2 id="publication-h" class="section-title">Co-Authored Publication</h2>
       <article class="card publication reveal">
         <svg class="icon pub-icon" aria-hidden="true"><use href="#i-doc"/></svg>
         <div>
@@ -286,7 +285,7 @@
 
     <!-- ============ CERTIFICATIONS ============ -->
     <section class="section container" id="certifications" aria-labelledby="certifications-h">
-      <h2 id="certifications-h" class="section-title"><span class="num">07.</span> Certifications</h2>
+      <h2 id="certifications-h" class="section-title">Certifications</h2>
       <div class="cert-grid">
         <a class="card cert reveal" href="https://www.credly.com/badges/df82e7fe-c406-49fa-a59b-b117f421ba21" target="_blank" rel="noopener">
           <img src="assets/img/badges/qradar.png" alt="IBM Certified Analyst - Security QRadar SIEM V7.4.3 badge" width="96" height="96" loading="lazy">
@@ -336,7 +335,7 @@
     <!-- ============ CURRENTLY LEARNING ============ -->
     <!-- Progress is set with --p and aria-valuenow on each item. -->
     <section class="section container" id="learning" aria-labelledby="learning-h">
-      <h2 id="learning-h" class="section-title"><span class="num">08.</span> Currently Learning <span class="live-dot" aria-hidden="true"></span></h2>
+      <h2 id="learning-h" class="section-title">Currently Learning <span class="live-dot" aria-hidden="true"></span></h2>
       <ul class="checklist">
         <li class="reveal" style="--p:65%">
           <span class="check in-progress" aria-hidden="true"></span>
@@ -373,10 +372,10 @@
     </section>
 
     <!-- ============ TESTIMONIALS ============ -->
-    <!-- Content is loaded at runtime from data-source (see README → "Managing testimonials").
-         The section hides itself automatically when there are no visible testimonials. -->
-    <section class="section container" id="testimonials" aria-labelledby="testimonials-h" data-source="data/testimonials.json">
-      <h2 id="testimonials-h" class="section-title"><span class="num">09.</span> Testimonials</h2>
+    <!-- Testimonials: DISABLED for now (see FUTURE_TASKS.md). Content is loaded at runtime from data-source.
+         The section stays hidden until data/testimonials.json has "enabled": true and at least one visible entry. -->
+    <section class="section container" id="testimonials" aria-labelledby="testimonials-h" data-source="data/testimonials.json" hidden>
+      <h2 id="testimonials-h" class="section-title">Testimonials</h2>
       <div class="carousel" tabindex="0" aria-label="Testimonials, scroll horizontally">
         <p class="muted">Loading testimonials…</p>
       </div>
@@ -388,7 +387,7 @@
 
     <!-- ============ CONTACT ============ -->
     <section class="section container" id="contact" aria-labelledby="contact-h">
-      <h2 id="contact-h" class="section-title"><span class="num">10.</span> Get in Touch</h2>
+      <h2 id="contact-h" class="section-title">Get in Touch</h2>
       <div class="grid-2 contact-grid">
         <div class="reveal">
           <p>I'm open to SOC, incident response, detection engineering, cloud security and IAM roles in the Greater Toronto Area or remote. Send a message and it lands straight in my inbox.</p>
@@ -397,8 +396,7 @@
           <!-- Optional: booking link (Calendly, Microsoft Bookings, etc.)
           <p><a href="https://calendly.com/YOUR-LINK" target="_blank" rel="noopener">Book a 20-minute call ↗</a></p> -->
         </div>
-        <!-- TODO: replace YOUR_FORM_ID with your Formspree form ID (see README) -->
-        <form class="card contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="card contact-form reveal" action="https://formspree.io/f/xwlvygjr" method="POST">
           <label>Name <input type="text" name="name" required autocomplete="name"></label>
           <label>Email <input type="email" name="email" required autocomplete="email"></label>
           <label>Message <textarea name="message" rows="5" required></textarea></label>

@@ -70,6 +70,7 @@
       section.hidden = true;
       return;
     }
+    section.hidden = false;
     visible.forEach(function (t) {
       var fig = el('figure', 'card testimonial reveal');
       fig.appendChild(el('blockquote', null, t.quote));
@@ -103,10 +104,15 @@
 
   if (carousel) {
     var src = section.getAttribute('data-source');
+    carousel.textContent = '';
     // cache: 'no-cache' revalidates each visit, so edits to the JSON show up without a redeploy of the page itself.
     fetch(src, { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (data) { renderTestimonials(Array.isArray(data) ? data : data.testimonials || []); })
+      .then(function (data) {
+        // Master switch: "enabled": false in the JSON keeps the whole section hidden.
+        if (!Array.isArray(data) && data.enabled === false) { section.hidden = true; return; }
+        renderTestimonials(Array.isArray(data) ? data : data.testimonials || []);
+      })
       .catch(function () { section.hidden = true; });
 
     section.querySelectorAll('.carousel-controls button').forEach(function (btn) {

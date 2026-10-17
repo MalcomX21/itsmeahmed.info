@@ -1,25 +1,26 @@
 {
+  "enabled": false,
   "testimonials": [
     {
-      "quote": "Ahmed consistently went beyond the coursework, applying security concepts to real lab environments with maturity and curiosity.",
-      "name": "Dr. Jane Doe",
-      "role": "Professor of Computer Science, University Name",
+      "quote": "TEMPLATE: replace with the professor's or supervisor's words.",
+      "name": "Full Name",
+      "role": "Professor of Computer Science, Algoma University",
       "relationship": "Professor",
       "photo": "",
       "visible": false
     },
     {
-      "quote": "Calm under pressure and quick to find root causes. Ahmed turned our ticket backlog around and documented everything along the way.",
-      "name": "John Smith",
-      "role": "IT Manager, Company Name",
+      "quote": "TEMPLATE: replace with the manager's words.",
+      "name": "Full Name",
+      "role": "SOC Manager, Ebryx",
       "relationship": "Manager",
       "photo": "",
       "visible": false
     },
     {
-      "quote": "Working alongside Ahmed on incident response was a pleasure. Thorough, communicative and always willing to share knowledge.",
-      "name": "Alex Lee",
-      "role": "Security Engineer, Company Name",
+      "quote": "TEMPLATE: replace with the colleague's words.",
+      "name": "Full Name",
+      "role": "Security Engineer, Ebryx",
       "relationship": "Colleague",
       "photo": "",
       "visible": false
