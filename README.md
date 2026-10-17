@@ -1,6 +1,6 @@
 # itsmeahmed.info
 
-Personal portfolio of **Ahmed**, a hybrid IT professional working across **Cybersecurity** and **IT Support, Networking & Systems Administration**.
+Personal portfolio of **Ahmed Sartaj**, a hybrid IT professional working across **Cybersecurity** and **IT Support, Networking & Systems Administration**.
 
 🌐 **Live site:** [https://itsmeahmed.info](https://itsmeahmed.info)
 
@@ -66,7 +66,7 @@ A fast, accessible, single-page portfolio built with plain HTML, CSS and JavaScr
     ├── js/main.js           # Theme toggle, nav, animations, testimonials, contact form
     ├── img/                 # Profile photo, university logo, OG image, favicon
     │   └── badges/          # Certification badge images
-    └── resume/              # Ahmed-Resume.pdf goes here
+    └── resume/              # Ahmed-Sartaj-Resume.pdf (linked from the Hero)
 ```
 
 ---
@@ -87,13 +87,15 @@ Then visit http://localhost:8000 (or the port shown).
 
 ## Filling in content
 
-Placeholders in `index.html` are marked with `<!-- TODO -->` comments or `YOUR-...` values. Search for `TODO` and `YOUR-` to find them all.
+Content comes from Ahmed's CV and the published paper. The remaining placeholders in `index.html` are marked with `<!-- TODO -->` comments or `YOUR-...` values. Search for `TODO` and `YOUR-` to find them all.
+
+**Still to add:** profile photo, university logos and years, Top Performer Award details and its LinkedIn post, Credly profile and badge links and images, Medium profile, the Formspree form ID, and real testimonials (the samples ship hidden).
 
 | What | Where |
 |---|---|
 | Full name and headline | `index.html` → Hero, `<title>`, meta tags, JSON-LD |
 | Profile photo | `assets/img/profile.jpg` (square, about 640×640), then update the `<img>` in the Hero |
-| Resume | `assets/resume/Ahmed-Resume.pdf` |
+| Resume | `assets/resume/Ahmed-Sartaj-Resume.pdf`. Replace the file to update it |
 | Experience | `index.html` → `#experience`. Add `track-sec` or `track-it` to each `<li>` |
 | University logo | `assets/img/university-logo.png` |
 | Skills | `index.html` → `#skills` pills |
@@ -179,7 +181,7 @@ Then add these records:
 | A     | `@`   | `185.199.109.153`           | 1 hour  |
 | A     | `@`   | `185.199.110.153`           | 1 hour  |
 | A     | `@`   | `185.199.111.153`           | 1 hour  |
-| CNAME | `www` | `<your-github-username>.github.io` | 1 hour |
+| CNAME | `www` | `malcomx21.github.io` | 1 hour |
 
 Optional IPv6 (`AAAA`, Name `@`): `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 
@@ -189,7 +191,7 @@ Optional IPv6 (`AAAA`, Name `@`): `2606:50c0:8000::153`, `2606:50c0:8001::153`, 
 
 ```bash
 nslookup itsmeahmed.info        # should return the 185.199.10x.153 addresses
-nslookup www.itsmeahmed.info    # should resolve via <username>.github.io
+nslookup www.itsmeahmed.info    # should resolve via malcomx21.github.io
 ```
 
 DNS changes usually take effect within an hour but can take up to 48 hours. When the GitHub Pages settings show a green "DNS check successful", enable **Enforce HTTPS**.
@@ -214,4 +216,4 @@ When you make a significant update, change the `<lastmod>` date in `sitemap.xml`
 
 ## License
 
-The code is available under the [MIT License](LICENSE). Personal content (text, photos, resume, logos and badges) is © Ahmed, all rights reserved.
+The code is available under the [MIT License](LICENSE). Personal content (text, photos, resume, logos and badges) is © Ahmed Sartaj, all rights reserved.
