@@ -16,22 +16,50 @@ Ask two to four people who know your work well:
 - [ ] A colleague from Ebryx (security team)
 - [ ] Optional: a manager from Canadian Tire
 
-For each person, collect:
+### Share the private submission link
 
-| Field | Example | Required |
-|---|---|---|
-| Quote | 2–3 sentences about your work | Yes |
-| Full name | Jane Doe | Yes |
-| Role / title | SOC Manager, Ebryx | Yes |
-| Relationship | Professor / Supervisor / Colleague / Manager | Yes |
-| Photo | Square headshot, about 200×200 | No |
+Send mentors this link (it works once the site is live):
 
-Ask each person whether they're comfortable having their name and words on a public site. A LinkedIn recommendation is an easy source, but ask before you reuse it.
+**https://itsmeahmed.info/testimonial.html**
+
+- It isn't linked from the site, and search engines are told not to index it (`noindex` plus `robots.txt`).
+- Each person enters their name, title, organization, relationship and quote, and must tick a consent box.
+- Submissions go to **itsme_ahmed@outlook.com** via Formspree, with a subject like *"New testimonial from Jane Doe (Manager)"*. **Nothing is published automatically.**
+- Each email includes a `json_entry` field: a ready-to-paste entry for `data/testimonials.json`.
+- Formspree's free plan allows 50 submissions a month, shared with the contact form.
+
+**Email template**
+
+> **Subject:** Would you write a short testimonial for my portfolio?
+>
+> Hi [Name],
+>
+> I hope you're doing well! I've just launched my professional portfolio at itsmeahmed.info, and I'd be grateful if you could write a short testimonial about our time working together at [Ebryx / Algoma University].
+>
+> It only takes a couple of minutes. Two to four sentences about my work, how I approach problems, or what it was like to collaborate would be perfect:
+>
+> 👉 https://itsmeahmed.info/testimonial.html
+>
+> I review everything before it goes live, and only your name, title and quote will be shown.
+>
+> Thank you so much. It means a lot!
+>
+> Best regards,
+> Ahmed Sartaj
+
+Tick off who you've asked:
+
+- [ ] A professor or supervisor from Algoma University (for example, a co-author on the SNPD 2025 paper)
+- [ ] A manager from Ebryx
+- [ ] A colleague from Ebryx (security team)
+- [ ] Optional: a manager from Canadian Tire
+
+A LinkedIn recommendation is another easy source, but ask the person before you reuse it.
 
 ### Add them to the site
 1. Open [`data/testimonials.json`](data/testimonials.json). On GitHub, click the file, then the ✏️ pencil icon.
 2. Change `"enabled": false` to `"enabled": true`.
-3. Replace a template entry with real content and set `"visible": true`:
+3. Paste the `json_entry` from the submission email in place of a template entry. Light edits for length are fine. To add one manually, it looks like this:
    ```json
    {
      "quote": "Ahmed took ownership of our most demanding clients ...",

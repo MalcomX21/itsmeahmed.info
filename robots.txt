@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /testimonial.html
 
 Sitemap: https://itsmeahmed.info/sitemap.xml

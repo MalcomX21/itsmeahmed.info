@@ -244,6 +244,24 @@ main { counter-reset: section; }
 .form-status.ok { color: var(--it); }
 .form-status.err { color: #f87171; }
 
+/* ========== Testimonial submission page ========== */
+.testimonial-page { max-width: 720px; padding: 3rem 0 1rem; }
+.testimonial-intro { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+.testimonial-intro img { width: 72px; height: 72px; border-radius: 50%; border: 2px solid var(--accent); }
+.testimonial-intro h1 { font-size: clamp(1.4rem, 4vw, 2rem); margin: 0; }
+.testimonial-form { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.testimonial-form label { display: grid; gap: .35rem; font-size: .9rem; color: var(--muted); }
+.testimonial-form input, .testimonial-form textarea, .testimonial-form select {
+  font: inherit; color: var(--text); background: var(--surface-2);
+  border: 1px solid var(--border); border-radius: 8px; padding: .7rem .85rem; width: 100%;
+}
+.testimonial-form input:focus, .testimonial-form textarea:focus, .testimonial-form select:focus { outline: none; border-color: var(--accent); }
+.testimonial-form .form-row { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.testimonial-form .char-count { font-size: .8rem; justify-self: end; }
+.testimonial-form .checkbox { display: flex; align-items: flex-start; gap: .6rem; color: var(--text); }
+.testimonial-form .checkbox input { width: auto; margin-top: .3rem; accent-color: var(--accent); }
+.testimonial-form .btn { justify-self: start; }
+
 /* ========== Footer ========== */
 .site-footer { margin-top: 5rem; border-top: 1px solid var(--border); padding: 2rem 0; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; color: var(--muted); font-size: .9rem; }
