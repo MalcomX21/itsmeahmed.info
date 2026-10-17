@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "quote": "Ahmed consistently went beyond the coursework, applying security concepts to real lab environments with maturity and curiosity.",
+      "name": "Dr. Jane Doe",
+      "role": "Professor of Computer Science, University Name",
+      "relationship": "Professor",
+      "photo": "",
+      "visible": true
+    },
+    {
+      "quote": "Calm under pressure and quick to find root causes. Ahmed turned our ticket backlog around and documented everything along the way.",
+      "name": "John Smith",
+      "role": "IT Manager, Company Name",
+      "relationship": "Manager",
+      "photo": "",
+      "visible": true
+    },
+    {
+      "quote": "Working alongside Ahmed on incident response was a pleasure. Thorough, communicative and always willing to share knowledge.",
+      "name": "Alex Lee",
+      "role": "Security Engineer, Company Name",
+      "relationship": "Colleague",
+      "photo": "",
+      "visible": true
+    }
+  ]
+}
