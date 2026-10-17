@@ -89,7 +89,7 @@ Then visit http://localhost:8000 (or the port shown).
 
 Content comes from Ahmed's CV and the published paper. The remaining placeholders in `index.html` are marked with `<!-- TODO -->` comments or `YOUR-...` values. Search for `TODO` and `YOUR-` to find them all.
 
-**Still to add:** university logos and years, Medium profile, the Formspree form ID, and real testimonials (the samples ship hidden).
+**Still to add:** NED University logo (`assets/img/ned-logo.png`), the Formspree form ID, and real testimonials (the samples ship hidden).
 
 **Adding a Credly badge:** open the badge's public page, save the badge image to `assets/img/badges/`, and copy an existing `.cert` card in `index.html` with the new image, name, issuer and badge URL.
 
