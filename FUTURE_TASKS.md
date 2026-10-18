@@ -83,11 +83,11 @@ A LinkedIn recommendation is another easy source, but ask the person before you 
 
 ## 2. Publish the site
 
-- [ ] Install the GitHub CLI: `winget install --id GitHub.cli`
-- [ ] Sign in: `gh auth login`
-- [ ] Create and push the repo (from this folder):
+- [x] Install the GitHub CLI: `winget install --id GitHub.cli`
+- [x] Sign in: `gh auth login`
+- [x] Create and push the repo (from this folder):
       `gh repo create itsmeahmed.info --public --source . --push --homepage "https://itsmeahmed.info"`
-- [ ] In the repo, open **Settings → Pages**, set the source to `main` and `/ (root)`, and the custom domain to `itsmeahmed.info`
+- [x] In the repo, open **Settings → Pages**, set the source to `main` and `/ (root)`, and the custom domain to `itsmeahmed.info`
 - [ ] In GoDaddy, unpublish the old Website Builder site and remove any forwarding
 - [ ] Add the GoDaddy DNS records. The README's Deployment section lists them: four `A` records plus a `CNAME` record for `www` pointing to `malcomx21.github.io`
 - [ ] When the DNS check passes, tick **Enforce HTTPS**
