@@ -8,14 +8,6 @@ Things to do on itsmeahmed.info later. Tick items off as you go.
 
 The Testimonials section is already built but **disabled**. It stays hidden until you switch it on and add at least one real testimonial.
 
-### Collect testimonials
-Ask two to four people who know your work well:
-
-- [ ] A professor or supervisor from Algoma University (for example, a co-author on the SNPD 2025 paper)
-- [ ] A manager from Ebryx
-- [ ] A colleague from Ebryx (security team)
-- [ ] Optional: a manager from Canadian Tire
-
 ### Share the private submission link
 
 Send mentors this link (it works once the site is live):
